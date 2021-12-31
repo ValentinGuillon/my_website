@@ -1,51 +1,62 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
-\moderncvstyle{classic}
+
 \usepackage[utf8x]{inputenc}
 \usepackage[french]{babel}
 
-\name{Valentin}{GUILLON}
+\moderncvstyle{casual}
+\moderncvcolor{orange}
+%\usepackage{lipsum}
+
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}
+
+
+
+\firstname{Valentin}
+\familyname{GUILLON}
 \address{9 rue Auguste Blanqui}{93430 Villetaneuse}{France}
-\phone[mobile]{06~03~63~50~79}
+\phone[mobile]{06 03 63 50 79}
 \email{valentin.guillon93430@gmail.com}
 \homepage{valentinguillon.github.io/my\_website}
+\photo[80pt][4pt]{valentin}
+
+\title{Curriculum Vitae}
 
 \begin{document}
 	\makecvtitle
 	
 	\section{Compétences}
-		\begin{itemize}
-			\item Organisé
-			\item Assidu
-			\item Language informatique
-				\begin{itemize}
-					\item HTML/CSS
-					\item Godot Visual Script
-				\end{itemize}
-			\item Logiciel
-				\begin{itemize}
-					\item Krita/Libre Sprite
-					\item LMMS et BeepBox
-				\end{itemize}
-		\end{itemize}
-	\section{Expériences}
-		\begin{itemize}
-			\item Technicien logistique informatique à Stim Plus (stage)
-		\end{itemize}
+		\cventry{}{Organisé}{}{}{}{}
+		\cventry{}{Assidu}{}{}{}{}
+		\cventry{}{Ponctuel}{}{}{}{}
+		\cventry{}{Languages informatique}{Python, HTML/CSS, Godot Visual Script}{}{}{}
+		\cventry{}{Logiciels}{Krita/LibreSprite, LMMS et BeepBox}{}{}{}
+		
+
 	\section{Diplôme}
-		\begin{itemize}
-			\item Baccalauréat Scientifique - Specilité ISN | Lycée Germaine Tillion - LeBourget
-		\end{itemize}
+		\cventry{2016-2017}{Bac S}{Spécialité ISN}{Lycée Germaine Tillion}{Le Bourget}{}	
+
+
+	\section{Études post Bac}
+		\cventry{2020-Aujourd'hui}{Licence STN}{}{Université Paris 8}{Saint-Denis}{}
+
+		
+	\section{Expériences}
+		\cventry{Été 2018}{Technicien logistique informatique}{Stage}{Stim Plus}{}{}
+		
+		
 	\section{Langues}
-		\begin{itemize}
-			\item Français : Courant
-			\item Anglais : A2
-			\item Japonais : Débutant
-		\end{itemize}
+		\cventry{}{Français}{Courant}{}{}{}
+		\cventry{}{Anglais}{A2}{}{"Pretty good in writing comprehension"}{}
+		\cventry{}{Japonais}{Débutant}{}{"Nihongo sukoshi dekimasu. Benkyô-chû desu"}{}
+
+
 	\section{Centre d'intérêts}
-		\begin{itemize}
-			\item Jeux Vidéos
-			\item Musique (piano ou synthetiseur informatique)
-			\item Dessin
-		\end{itemize}
-	
+		\cventry{}{Jeux-vidéos}{Xbooox !}{}{}{}
+		\cventry{}{Musique}{piano ou synthétiseur informatique}{}{}{}
+		\cventry{}{Informatique}{}{}{}{}
+		\cventry{}{Dessin}{}{}{}{}
 \end{document}
+
+
+%\emph{} met en italique ?
