@@ -52,6 +52,33 @@ ul {
     text-align: left;
 }
 
+audio {
+    transition: all 0.5s linear;
+/*  box-shadow: 2px 2px 4px 0px #7e550a;*/
+    border-radius: 5px 50px 50px 5px ;
+
+    /*Chrome, Firefox, Opera 12, Safari 5*/
+    -webkit-transition: all 0.5s linear;
+/*  -webkit-box-shadow: 2px 2px 4px 0px #7e550a;*/
+    -webkit-border-radius: 5px 50px 50px 5px ;
+
+    /*Firefox 4*/
+    -moz-transition: all 0.5s linear;
+/*  -moz-box-shadow: 2px 2px 4px 0px #7e550a;*/
+    -moz-border-radius: 5px 50px 50px 5px ;
+
+    /*Opera 11*/
+    -o-transition: all 0.5s linear;
+/*  -o-box-shadow: 2px 2px 4px 0px #7e550a;*/
+    -o-border-radius: 5px 50px 50px 5px ;
+
+    
+
+
+
+
+}
+
 
 /*
 p {
