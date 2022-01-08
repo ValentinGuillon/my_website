@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.28)  8 JAN 2022 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.28)  8 JAN 2022 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,10 +696,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16005 strings out of 483154
- 241981 string characters out of 5965022
- 549718 words of memory out of 5000000
- 30736 multiletter control sequences out of 15000+600000
+ 16006 strings out of 483154
+ 241991 string characters out of 5965022
+ 549741 words of memory out of 5000000
+ 30737 multiletter control sequences out of 15000+600000
  580550 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,12n,51p,785b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -711,7 +711,7 @@ texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 so10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb>
-Output written on cv_valentin_guillon.pdf (1 page, 1957632 bytes).
+Output written on cv_valentin_guillon.pdf (1 page, 1957618 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
