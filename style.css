@@ -1,8 +1,8 @@
-html {
-    background-color:#202225;
 
-    color:#afafaf;
-    }
+
+html {
+    color:#3f3f3f
+}
 
 
 body {
@@ -10,13 +10,14 @@ body {
 }
 
 h1 {
+    color: #f1f1f1;
     width: 350px;
     /*radial-gradient(white,grey, black)*/
-    background: radial-gradient(rgba(128, 128, 128, 0), rgb(19, 20, 24));
+    background: radial-gradient(rgb(240, 185, 33), rgb(151, 74, 11));
     /*background-color: rgb(19, 20, 24);*/
     padding: 4px;
     border:3px solid rgba(9, 10, 16, 0.254);
-    border-radius:50%;
+    border-radius: 30rem;
     margin: 10px auto;
 
     align-content: center;
@@ -24,10 +25,9 @@ h1 {
     text-transform: capitalize;
 }
 section {
-    background-color: #36383f;
-    padding: 0px 10px;
-    border: 2px solid rgb(9, 10, 16);
-    border-radius: 15%;
+    padding: 15px 10px;
+    border: 1px solid rgb(9, 10, 16);
+    border-radius: 2.5rem;
     margin: 5px 15%;
 
     align-content: center;
